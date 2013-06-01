@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.holovisi.settings"
+       name="HoloVisi Configuration"
+       version="0.0.1"
+       provider-name="HoloVisi">
+   <requires>
+   	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"></extension>
+  <extension point="xbmc.service"       library="service.py" start="startup"></extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">HoloVisi Configuration</summary>
+    <description lang="en">Use this addon to manage your HoloVisi system's underlying operating system.
+        From here you can manage the entire system so you don't have to worry about what runs under the hood.[CR][CR]
+        From here you can change your network connectivity,
+        your keyboard layout and language and enable/disable remote access including Samba and SSH.</description>
+      <summary lang="zh">HoloVisi配置</summary>
+      <description lang="zh">使用该组件管理HoloVisi所在操作系统。在此处你可管理整个系统，
+          修改网络连接、键盘布局、语言，以及开启/关闭Samba和SSH等远程访问。
+      </description>
+  </extension>
+</addon>
+
